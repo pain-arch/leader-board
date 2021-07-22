@@ -89,3 +89,37 @@ hr{
     font-size: 18px;
     cursor: pointer;
 }
+
+/* Top-blogs style starts here */
+.top-blogs h2{
+    color: #562EFF;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding-bottom: 30px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail{
+    margin-left: 2%;
+}
+.thumbnail img{
+    width: 275px;
+}
+.blog-info{
+    margin-left: 10px;    
+}
+.blog-author a{
+    color: #562EFF;
+    font-weight: 600;
+    text-decoration: none;
+}

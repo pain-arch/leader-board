@@ -1,11 +1,34 @@
+@media only screen and (max-width:1273px){
+    .thumbnail img{
+        width: 200px;
+    }
+}
+@media only screen and (max-width:1114px){
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .thumbnail img{
+        width: 300px;
+    }
+
+}
+
 /* responsive css for Tablet */
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:769px) {
     .players, .blogs, .courses{
         grid-template-columns: repeat(2, 1fr);
     }
     .player, .blog{
         flex-direction: column;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .thumbnail img{
+        width: 300px;
     }
 }
  
@@ -33,11 +56,6 @@
     .menu{
        display: none;
     }
-    
-    
-    
-
-
     .container{
         width: 100%;
         margin-left: 0;
