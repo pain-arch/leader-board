@@ -1,0 +1,53 @@
+/* responsive css for Tablet */
+
+@media only screen and (max-width:768px) {
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+}
+ 
+/* responsive css for mobile */
+
+@media only screen and (max-width:556px) {
+    .top-head{
+        background-color: #562EFF;
+        width: 100%;
+    }
+    .head{
+        width: 100%;
+        display: block;
+        margin-left:0;
+        margin-right: 0;
+        padding-top: 6px ;
+    }
+    .logo{
+        text-align: center;
+        width: 100%;
+    }
+    .logo img{
+        width: 160px;
+    }
+    .menu{
+       display: none;
+    }
+    
+    
+    
+
+
+    .container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+        
+}    
